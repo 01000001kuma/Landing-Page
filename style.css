@@ -7,9 +7,6 @@ body {
     margin: 0;
 }
 
-
-
-
 #header{
     background-color: white;
     color: black;
@@ -53,9 +50,40 @@ body {
 
 }
 
+.app-text{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(55, 0, 255);
+
+}
+
+.app-text a:visited{
+    text-decoration: underline;
+    color: red;
+}
+
+.app-text a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.app-text a:active{
+    color: blue;
+}
+
+.video{
+    display: block;
+    margin: auto;
+    height: 390px;
+    width: 500px;
+    padding-top: 0;
+    padding-bottom: 30px;   
+
+}
+
 #footer{
-    margin-top: 30px;
-    background-color: rgb(241, 0, 0);
+    margin-top: 20px;
+    background-color: rgba(255, 0, 0, 0.623);
     padding: 20px;
 }
 
@@ -75,6 +103,10 @@ body {
     text-decoration: none;
     color: white;
 
+}
+
+#footer a:hover{
+    color: rgb(0, 217, 255);
 }
 
 #footer span{
