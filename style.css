@@ -20,6 +20,12 @@ body {
 
 }
 
+@media (max-width: 600px) {
+    .companylogo {
+      margin: 0 auto;
+    }
+  }
+
 #nav-bar{
     position: fixed;
     top: 0;
@@ -38,6 +44,13 @@ body {
 
 
 }
+
+@media (max-width: 600px) {
+    #nav-bar ul{
+    display: flex;
+    flex-direction: column;
+    }
+  }
 
 #nav-bar a{
     display: inline;
@@ -74,6 +87,7 @@ body {
 #form-photo{
     display: inline-block;
     width: 200px;
+    display: flex;
 }
 
 .food{
@@ -82,15 +96,16 @@ body {
 
 .caption{
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 55%;
+    left: 30%;
     transform: translate( -50%, -50% );
     text-align: center;
     color: white;
     font-weight: bold;
     line-height: 250%;    
-    width: 300px;
+    width: 450px;
     word-wrap: break-word;
+    font-size: x-large;
     
 }
 
@@ -100,31 +115,89 @@ body {
     position: absolute;
     top: 30%;
     left: 60%;
-    margin-right: 10%;
-        background-color: #ff000057;
+    background-color: #ff00007c;
     border-radius: 20px;
     color: white;
-    
+    padding: 30px;
+}
 
+#submit{
+    display: block;
+    margin:auto;
+    margin-top: 25px;
+}
+
+#content{
+    position: absolute;
+    width: 90%;
+    height: 30%;
+}
+
+#submit{
+    text-align: center;
+}
+
+
+input[type=text]{
+    width: 90%;
+    padding: 6px;
+    border-color: white;
+    border-radius: 10px 5px;
+    margin: 10px;
+}
+
+input[type=submit]{
+    background-color: #39d13e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    padding: 12px 20px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+input[type=date]{
+    width: 90%;
+    padding: 6px;
+    border-color: white;
+    border-radius: 10px 5px;
+    margin: 10px;
 }
 
 .register{
     text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-large;
 
 }
 
 .discover{
     text-align: center;
-    width: 200px;
+    width: 300px;
     word-wrap: break-word;
+    margin-inline-end: 50%;
+}
+
+.client{
+    font-size: 1em;
+}
+
+.goto{
+    color: rgb(0, 255, 42);
 }
 
 .app-text{
     color: red;
 }
 
-.app-text a:hover{
+.app-text:hover{
     color: black;
+}
+
+.app-text:visited{
+    color:blue;
 }
 
 .video{
@@ -133,8 +206,11 @@ body {
     height: 390px;
     width: 500px;
     padding-top: 0;
-    padding-bottom: 30px;   
-
+    padding-bottom: 0px; 
+    border-radius: 15px; 
+    border-color: white;
+    
+    
 }
 
 #footer{
@@ -190,4 +266,10 @@ body {
 ::-webkit-scrollbar-thumb {
         background: rgba(255, 0, 0, 0.514);
         border-radius: 10px; 
+}
+
+@media screen (min-width: 600px){
+    
+
+
 }
