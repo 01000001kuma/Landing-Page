@@ -71,6 +71,45 @@ body {
     color: blue;
 }
 
+#form-photo{
+    display: inline-block;
+}
+
+.food{
+    display: block;  
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 250%;
+    
+    width: 300px;
+    word-wrap: break-word;
+}
+
+#formbox{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    margin-right: 10%;
+    box-sizing: border-box;
+    background-color: #ff000057;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.register{
+    text-align: center;
+    
+}
+
 .video{
     display: block;
     margin: auto;
