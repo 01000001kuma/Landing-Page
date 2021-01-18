@@ -73,6 +73,7 @@ body {
 
 #form-photo{
     display: inline-block;
+    width: 200px;
 }
 
 .food{
@@ -82,32 +83,48 @@ body {
 .caption{
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 25%;
     transform: translate( -50%, -50% );
     text-align: center;
     color: white;
     font-weight: bold;
-    line-height: 250%;
-    
+    line-height: 250%;    
     width: 300px;
     word-wrap: break-word;
+    
 }
 
 #formbox{
+    width: 30%;
+    height: 500px;
     position: absolute;
     top: 30%;
     left: 60%;
     margin-right: 10%;
-    box-sizing: border-box;
-    background-color: #ff000057;
+        background-color: #ff000057;
     border-radius: 20px;
     color: white;
+    
 
 }
 
 .register{
     text-align: center;
-    
+
+}
+
+.discover{
+    text-align: center;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.app-text{
+    color: red;
+}
+
+.app-text a:hover{
+    color: black;
 }
 
 .video{
@@ -122,7 +139,7 @@ body {
 
 #footer{
     margin-top: 20px;
-    background-color: rgba(255, 0, 0, 0.623);
+    background-color: rgba(255, 0, 0, 0.925);
     padding: 20px;
 }
 
