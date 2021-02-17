@@ -46,12 +46,12 @@ body {
 
 }
 
-@media (max-width: 600px) {
-    #nav-bar ul{
-    display: flex;
-    flex-direction: column;
-    }
-  }
+@media only screen and (max-width: 768px) {
+
+    
+
+
+}
 
 #nav-bar a{
     display: inline;
@@ -110,7 +110,15 @@ body {
     
 }
 
+@media only screen and (max-width: 768px) {
+    .caption{
+        width: 250px;
+        font-size:18px;
+    }
+    
 
+    
+}
 
 
 
@@ -271,5 +279,14 @@ input[type=date]{
 ::-webkit-scrollbar-thumb {
         background: rgba(255, 0, 0, 0.514);
         border-radius: 10px; 
+}
+
+@media only screen and (max-width: 600px){
+
+
+
+
+
+    
 }
 
