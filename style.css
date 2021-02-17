@@ -21,18 +21,34 @@ body {
 
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .companylogo {
       margin: 0 auto;
+      width: 80px;
     }
   }
 
 #nav-bar{
-    position: fixed;
-    top: 0;
     width: 100%;
-    display: block;
-    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(rgba(206, 24, 24, 0.836), rgb(48, 37, 37));
+    overflow: hidden;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 14px 16px;
+       
+
+}
+
+@media only screen and (max-width: 768px){
+    .menu-item a{
+        font-size: small;
+        font-weight: bold;
+        padding: 10px ;
+    }
 
 }
 
@@ -42,26 +58,14 @@ body {
     float: right;
     padding-top: 25px;
     padding-right: 20px;
-
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    
-
-
-}
-
-#nav-bar a{
     display: inline;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    font-weight: bold;
+    
+    
+}
 
+#nav-bar li{
+    display: inline;
+    
 }
 
 .app-text{
@@ -97,7 +101,7 @@ body {
 
 .caption{
     position: absolute;
-    top: 480px;
+    top: 530px;
     left: 30%;
     transform: translate( -50%, -50% );
     text-align: center;
@@ -113,25 +117,36 @@ body {
 @media only screen and (max-width: 768px) {
     .caption{
         width: 250px;
-        font-size:18px;
+        font-size:15px;
+        top: 250px;
+        left: 50%;
+        
     }
     
-
-    
 }
-
-
 
 #formbox{
     width: 30%;
     height: 500px;
     position: absolute;
-    top: 220px;
+    top: 270px;
     left: 60%;
     background-color: #ff00007c;
     border-radius: 20px;
     color: white;
     padding: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    #formbox{
+        width: 250px;
+        height: 530px;
+        top: 400px;
+        left: 22%;
+        
+
+    }
+
 }
 
 #submit{
@@ -188,13 +203,22 @@ input[type=date]{
 
 .discover{
     text-align: center;
-
     word-wrap: break-word;
     
 }
 
-.client{
+h5.client{
     font-size: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    h5.client{
+        font-size: x-small;
+        text-align: center;
+
+        
+    }
 }
 
 .goto{
