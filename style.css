@@ -97,7 +97,7 @@ body {
 
 .caption{
     position: absolute;
-    top: 55%;
+    top: 480px;
     left: 30%;
     transform: translate( -50%, -50% );
     text-align: center;
