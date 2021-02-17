@@ -112,6 +112,8 @@ body {
 
 
 
+
+
 #formbox{
     width: 30%;
     height: 500px;
@@ -178,9 +180,9 @@ input[type=date]{
 
 .discover{
     text-align: center;
-    width: 300px;
+
     word-wrap: break-word;
-    margin-inline-end: 50%;
+    
 }
 
 .client{
