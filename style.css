@@ -110,11 +110,13 @@ body {
     
 }
 
+
+
 #formbox{
     width: 30%;
     height: 500px;
     position: absolute;
-    top: 30%;
+    top: 220px;
     left: 60%;
     background-color: #ff00007c;
     border-radius: 20px;
