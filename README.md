@@ -1,4 +1,3 @@
-# test_test
 First Landing Page project
 Autor: Adrian Molina
 My first landing page, this project is for the Free Code Camp. 
