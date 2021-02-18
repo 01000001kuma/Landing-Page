@@ -8,4 +8,4 @@ I've tried to "create" a concept of a new platform that offers a food delivery s
 
 I hope you'll enjoy my code and this proof of concept idea behind it. 
 
-If you have any question or want to contact me please feel free to do so at a_illera@yahoo.com
+If you have any questions or want to contact me please feel free to do so at a_illera@yahoo.com
